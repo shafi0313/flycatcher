@@ -1,0 +1,92 @@
+// Choose Parcelseba
+
+.choose-parcelseba {
+    background-color: $secondary;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    .choose-parcelseba-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 54px;
+        text-transform: capitalize;
+        color: #FBFBFB;
+        padding-bottom: 20px;
+    }
+    .choose-parcelseba-subtitle {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .choose-parcelseba-content-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 200%;
+        text-transform: uppercase;
+        color: #F2C94C;
+    }
+    .choose-parcelseba-content {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .choose-parcelseba-illistration {
+        img {
+            width: 100%;
+        }
+    }
+    .choose-parcelseba-list {
+        padding: 0;
+        .choose-parcelseba-item {
+            display: flex;
+            list-style: none;
+            .icon {
+                padding-top: 10px;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+//Responsive 
+
+@media screen and (max-width:768px) {
+    .choose-parcelseba {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .choose-parcelseba-title {
+            font-size: 30px;
+        }
+        .choose-parcelseba-subtitle {
+            font-size: 16px;
+        }
+        .choose-parcelseba-content-title {
+            font-size: 20px;
+        }
+        .choose-parcelseba-content {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+        .choose-parcelseba-illistration {
+            display: none;
+        }
+    }
+}

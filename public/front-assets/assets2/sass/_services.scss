@@ -1,0 +1,40 @@
+// Services
+
+.services {
+    padding: 70px 0;
+    text-align: center;
+
+    svg {
+        padding-bottom: 30px;
+    }
+    .service-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: capitalize;
+        color: #333333;
+    }
+    .service-description {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 200%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #333333;
+    }
+}
+
+// Responsive
+
+@media screen and (max-width:768px) {
+    .services {
+        padding: 50px 0;
+        .service-title {
+            font-size: 30px;
+        }
+    }
+}

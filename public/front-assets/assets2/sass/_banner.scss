@@ -1,0 +1,187 @@
+// Banner
+
+.banner {
+    .banner-image {
+        position: relative;
+        img {
+            width: 100%;
+            height: 90vh;
+            object-fit: cover;
+        }
+        .banner-caption-title-mobile {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            display: none;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 145%;
+            color: #333333;
+        }
+    }
+    .banner-caption {
+        position: absolute;
+        top: 20%;
+        left: 16%;
+    }
+    .banner-card {
+        width: 500px;
+        z-index: 1;
+        padding: 40px 40px;
+        border: 0;
+        background: linear-gradient(53.15deg, #00A8EA 2.94%, rgba(0, 168, 234, 0.67) 97.99%);
+        box-shadow: 0px 0px 45px #E5E5E5;
+        border-radius: 50px;
+
+        .banner-title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 145%;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding-bottom: 20px;
+        }
+
+        .divider {
+            position: relative;
+            text-align: center;
+            margin: 20px 0;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 145%;
+            /* or 23px */
+
+            text-transform: uppercase;
+
+            /* Gray 6 */
+
+            color: #F2F2F2;
+
+            &::after, &::before {
+                content: "";
+                width: 40%;
+                height: 1px;
+                background-color: #F2F2F2;
+                position: absolute;
+                top: 13px;
+            }
+            &::after {
+                right: 0;
+            }
+            &::before {
+                left: 0;
+            }
+        }
+
+        .form-control {
+            padding: 0.75rem;
+
+            &::placeholder {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 145%;
+                /* or 23px */
+
+
+                /* Gray 4 */
+
+                color: #BDBDBD;
+            }
+        }
+
+        .contact-no-variation {
+            background: #fff;
+        }
+        
+        .tracking-status-btn {
+            background: $primary;
+            color: #fff;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 145%;
+            /* or 23px */
+
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            padding: 0.75rem;
+            background: #F2C94C;
+            border-color: #F2C94C;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 145%;
+            /* or 23px */
+
+            text-transform: uppercase;
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+    }
+    .banner-caption-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 145%;
+        color: #333333;
+        padding-bottom: 50px;
+    }
+    .banner-caption-hotline {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 145%;
+        color: #fff;
+        background: linear-gradient(90deg, #2E3192 0%, #00A8EA 0.01%, #2E3192 100%);
+        padding: 20px 34px;
+        border: 0;
+        border-radius: 50px;
+    }
+}
+
+//Responsive
+
+@media screen and (max-width: 768px) {
+    .banner {
+        .banner-image {
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            .banner-caption-title-mobile {
+                display: block;
+            }
+        }
+        .banner-caption {
+            position: relative;
+            top: 20px;
+            left: 0;
+            width: 100%;
+        }
+        .banner-card {
+            width: 100%;
+        }
+        .banner-caption-title {
+            display: none;
+        }
+    }
+}

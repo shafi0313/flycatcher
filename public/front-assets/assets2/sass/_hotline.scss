@@ -1,0 +1,46 @@
+// Hotline
+
+.hotline {
+    background: $secondary;
+    padding: 30px 0;
+    .hotline-item {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .hotline-item-icon {
+            width: 72px;
+        }
+        .hotline-item-content {
+            padding-left: 15px;
+            h3 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+            span {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+// Responsive
+
+@media screen and (max-width:768px) {
+    .hotline {
+        padding: 50px 0;
+        .hotline-item {
+            justify-content: flex-start;
+            padding-bottom: 20px;
+        }
+    }
+}

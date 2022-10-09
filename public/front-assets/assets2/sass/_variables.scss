@@ -1,0 +1,12 @@
+// Variables
+$primary: #2E3192;
+$secondary: #00A8EA;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+

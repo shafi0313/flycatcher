@@ -1,0 +1,109 @@
+// FAQ
+
+.faq {
+    padding: 70px 0;
+    .choose-parcelseba-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: #333333;
+    }
+    .choose-parcelseba-subtitle {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        padding-bottom: 30px;
+        display: block;
+    }
+
+    .faq-collapse {
+        .faq-collapse-item {
+            margin-bottom: 20px;
+            .btn {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #333333;
+                width: 100%;
+                text-align: left;
+                margin-bottom: 20px;
+                border: 1px solid #F2F2F2;
+                border-radius: 10px;
+                padding: 30px 20px;
+                &:hover, &[aria-expanded="true"] {
+                    border: 1px solid $secondary;
+                    box-shadow: 0px 0px 45px #E5E5E5;
+                }
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+                &[aria-expanded="false"] {
+                    .faq-collapse-icon{
+                        &.faq-collapse-icon-plus {
+                            display: block;
+                        }
+                        &.faq-collapse-icon-minus {
+                            display: none;
+                        }
+                    }
+                }
+                &[aria-expanded="true"] {
+                    .faq-collapse-icon{
+                        &.faq-collapse-icon-plus {
+                            display: none;
+                        }
+                        &.faq-collapse-icon-minus {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .collapse {
+                border: 1px solid $secondary;
+                border-radius: 10px;
+                .card {
+                    border-radius: 10px;
+                    border: 0;
+                    box-shadow: 0px 0px 45px #E5E5E5;
+                }
+            }
+            .faq-collapse-icon {
+                float: right;
+            }
+        }
+    }
+}
+
+// Responsive 
+
+@media screen and (max-width:768px) {
+    .faq {
+        padding: 50px 0;
+        .choose-parcelseba-title {
+            font-size: 30px;
+        }
+        .choose-parcelseba-subtitle {
+            font-size: 16px;
+        }
+        .faq-collapse {
+            .faq-collapse-item {
+                .btn {
+                    font-size: 20px;
+                }
+                .faq-collapse-icon {
+                    svg {
+                        width: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

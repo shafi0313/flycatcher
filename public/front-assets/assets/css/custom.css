@@ -1,0 +1,17 @@
+.tracking .form-control {
+    padding: 15px 10px;
+    background: white;
+}
+
+.tracking  .tracking-status-btn {
+    background: #F95C19;
+    border-color: #F95C19;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 145%;
+    text-transform: uppercase;
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+// Delivery Charges
+
+.delivery-charge {
+    padding-top: 70px;
+    padding-bottom: 180px;
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0.4) 0%, #F9F9F9 100%);
+    .delivery-charge-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: #333333;
+    }
+    .delivery-charge-subtitle {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        display: block;
+        color: #333333;
+        padding-bottom: 30px;
+    }
+    .delivery-charge-tab {
+        .nav-tabs {
+            border-bottom: 2px solid #F1F2F3;
+            .nav-link {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 140%;
+                text-align: center;
+                background-color: transparent;
+                color: #828282;
+                border: 0;
+                border-bottom: 2px solid #F1F2F3;
+
+                svg {
+                    fill: #828282;
+                    margin-right: 10px;
+                }
+
+                &.active, &:hover {
+                    color: $primary;
+                    border: 0;
+                    border-bottom: 2px solid $primary;
+
+                    svg {
+                        fill: $primary;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            padding-top: 20px;
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                row-gap: 15px;
+                column-gap: 15px;
+            }
+        }
+        .delivery-charge-illistration {
+            img {
+                width: 300px;
+                transform: scale(2.3);
+                margin-top: 100px;
+                margin-left: -70px;
+                position: absolute;
+                pointer-events: none;
+            }
+        }
+
+        .delivery-charge-box {
+            width: 100%;
+            height: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid #00A8EA;
+            box-sizing: border-box;
+            border-radius: 10px;
+            .delivery-charge-box-title {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: center;
+                color: #333333;
+                padding-bottom: 10px;
+            }
+            .delivery-charge-box-price {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 140%;
+                text-align: center;
+                color: $primary;
+            }
+        }
+    }
+}
+
+// Responsive 
+
+@media screen and (max-width:768px) {
+    .delivery-charge {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .delivery-charge-tab {
+            .nav-tabs {
+                border-bottom: 2px solid #F1F2F3;
+                flex-wrap: unset;
+                white-space: nowrap;
+                overflow-x: auto;
+            }
+            .tab-content {
+                padding-top: 20px;
+                .grid {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    row-gap: 15px;
+                    column-gap: 15px;
+                }
+            }
+            .delivery-charge-illistration {
+                display: none;
+            }
+
+            .delivery-charge-box {
+                height: 100%;
+            }
+        }
+    }
+}
