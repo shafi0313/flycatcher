@@ -18,10 +18,10 @@
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Bacth Upload</h4>
-                            <a class="btn btn-info" href="{{asset('batch/parcelsheba-sample.xlsx')}}">Sample Excel Download</a>
+                            <a class="btn btn-info" href="{{asset('batch/flycatcher-sample.xlsx')}}">Sample Excel Download</a>
                         </div>
                         <div class="card-body">
-                            <p style="color: #d30a0a;">এক্সেল ফাইল আপলোড দেওয়ার আগে দয়া করে চেক করে নিবেন যাতে এরিয়া কোড মিসিং না হয়  ।সর্বোচ্চ ৬৫ টি পার্সেল একসাথে আপলোড দিন। 
+                            <p style="color: #d30a0a;">এক্সেল ফাইল আপলোড দেওয়ার আগে দয়া করে চেক করে নিবেন যাতে এরিয়া কোড মিসিং না হয়  ।সর্বোচ্চ ৬৫ টি পার্সেল একসাথে আপলোড দিন।
  নির্দেশনাটি ফলো করার জন্য ধন্যবাদ</p>
                             <form action="{{route('merchant.import')}}" method="POST" class="" enctype="multipart/form-data">
                                 @csrf

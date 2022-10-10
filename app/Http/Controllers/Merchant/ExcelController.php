@@ -83,7 +83,7 @@ class ExcelController extends Controller
             $ap->hub_id          = \auth('merchant')->user()->hub_id;
             $ap->save();
         }
-        return response()->successRedirect($total . " Parcel Successful Saved !", 'merchant.parcel.index');
+        return response()->successRedirect($total . "Parcel Successful Saved !", 'merchant.parcel.index');
         //  DB::commit();
         // all good
         // } catch (\Exception $e) {
