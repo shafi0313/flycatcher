@@ -50,10 +50,10 @@
             </div>
             <div class="content-body">
                 <div class="auth-wrapper auth-v2">
-                    <div class="auth-inner row m-0">
-                        <div class="d-none d-lg-flex align-items-center p-5 col-lg-8">
+                    <div class="auth-inner row m-0 justify-content-center">
+                        {{-- <div class="d-none d-lg-flex align-items-center p-5 col-lg-8">
                             <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img class="img-fluid" src="{{ asset('app-assets\images\banner\merchant.png') }}" alt="Login V2" /></div>
-                        </div>
+                        </div> --}}
                         <!-- /Left Text-->
                         <!-- Login-->
                         <div class="d-flex align-items-center auth-bg px-2 p-lg-5 col-lg-4">
@@ -80,7 +80,7 @@
                                         @csrf
                                         <div class="form-group">
                                         <label class="form-label" for="login-mobile">Mobile</label>
-                                        <input class="form-control @error('mobile') is-invalid @enderror" value="{{ old('mobile') }}" id="login-mobile" type="text" name="mobile" placeholder="01710355789" aria-describedby="login-mobile" autofocus="" tabindex="1" />
+                                        <input class="form-control @error('mobile') is-invalid @enderror" value="{{ old('mobile') }}" id="login-mobile" type="text" name="mobile" placeholder="01700000000" aria-describedby="login-mobile" autofocus="" tabindex="1" />
                                     </div>
                                         <div class="form-group">
                                             <div class="d-flex justify-content-between">

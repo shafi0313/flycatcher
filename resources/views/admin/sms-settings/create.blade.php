@@ -25,7 +25,7 @@
                                 <div class="row">
                                     <div class="col-md-3 col-12 mb-1">
                                         <div class="form-group">
-                                            <label for="mobile">Parcelsheba Official Mobile Number</label>
+                                            <label for="mobile">Flycatcher Xpress Official Mobile Number</label>
                                             <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Enter Mobile Number" value="{{ $smsSetting->mobile??'' }}">
                                             @if($errors->has('mobile'))
                                             <small class="text-danger">{{$errors->first('mobile')}}</small>

@@ -87,7 +87,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <p>Parcelsheba aims to expanding e-commerce sector by providing tech-first logistics support. We give the delivery service with exclusive features, strong and talented workforce.</p>
+                            <p>Flycatcher Xpress aims to expanding e-commerce sector by providing tech-first logistics support. We give the delivery service with exclusive features, strong and talented workforce.</p>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -166,7 +166,7 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>Copyright © 2021 Parcelsheba. All Rights Reserved</p>
+                <p>Copyright © 2021 Flycatcher Xpress. All Rights Reserved</p>
             </div>
         </div>
     </footer>

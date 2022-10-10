@@ -9,7 +9,7 @@
     <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>@yield('title') | {{ env('APP_NAME','Parcelsheba') }}</title>
+    <title>@yield('title') | {{ env('APP_NAME','Flycatcher Xpress') }}</title>
     <link rel="icon" type="image/x-icon" href="{{asset('admin/app-assets/images/ico/favicon.ico')}}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset(mix('css/admin.css')) }}">
@@ -33,7 +33,7 @@
                 <li class="nav-item mr-auto">
                     <a class="navbar-brand" href="{{route('admin.dashboard')}}">
                         <span class="brand-logo"><img src="{{ asset('/') }}admin/app-assets/images/ico/favicon.ico"></span>
-                        <h4 class="ml-1 text-primary">Parcelsheba<br></h4>
+                        <h4 class="ml-1 text-primary">Flycatcher Xpress<br></h4>
                     </a>
                 </li>
                 @elseif(auth()->guard('merchant')->check())
@@ -78,7 +78,7 @@
     <div class="drag-target"></div>
 
     <footer class="footer footer-static footer-light">
-        <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; <?php echo date("Y"); ?><a class="ml-25" href="https://www.parcelsheba.com/" target="_blank">Parcelsheba Ltd.</a><span class="d-none d-sm-inline-block"> All rights Reserved</span></span><span class="float-md-right d-none d-md-block">Version 0.0.1<i data-feather="heart"></i></span></p>
+        <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; <?php echo date("Y"); ?><a class="ml-25" href="https://www.parcelsheba.com/" target="_blank">Flycatcher Xpress Ltd.</a><span class="d-none d-sm-inline-block"> All rights Reserved</span></span><span class="float-md-right d-none d-md-block">Version 0.0.1<i data-feather="heart"></i></span></p>
     </footer>
     <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
 

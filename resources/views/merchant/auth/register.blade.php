@@ -52,22 +52,22 @@
             </div>
             <div class="content-body">
                 <div class="auth-wrapper auth-v2">
-                    <div class="auth-inner row m-0">
+                    <div class="auth-inner row m-0 justify-content-center">
                         <!-- Brand logo-->
-                        <a class="brand-logo" href="javascript:void(0);">
-                        <img src="{{ asset('app-assets/images/ico/favicon.ico') }}" alt="">
-                            <h2 class="brand-text ml-1" style="color:#4882ca;">Merchant Register</h2>
-                        </a>
+                        {{-- <a class="brand-logo" href="javascript:void(0);">
+                            <h2 class="brand-text ml-1" style="color:#0D4CA2;">Merchant Register</h2>
+                        </a> --}}
                         <!-- /Brand logo-->
                         <!-- Left Text-->
-                        <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
-                            <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img class="img-fluid" src="{{ asset('') }}app-assets/images/pages/register-v2.svg" alt="Register V2" /></div>
-                        </div>
+                        {{-- <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
+                            <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img class="img-fluid" src="{{ asset('') }}app-assets/images/banner/reg.jpg" alt="Register V2" /></div>
+                        </div> --}}
                         <!-- /Left Text-->
                         <!-- Register-->
                         <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-                                <h2 class="card-title font-weight-bold mb-1">Welcome to Parcelsheba!</h2>
+                                <h2 class="brand-text text-center ml-1" style="color:#0D4CA2;">Merchant Register</h2><br>
+                                <h2 class="card-title font-weight-bold mb-1">Welcome to Flycatcher Xpress!</h2>
                                 <p class="card-text mb-2">Please Register to your account</p>
                                 <form class="auth-register-form mt-2" action="{{ route('merchant.registerCheck') }}" method="POST">
                                     @csrf

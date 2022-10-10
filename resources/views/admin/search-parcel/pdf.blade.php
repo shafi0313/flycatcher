@@ -82,7 +82,7 @@
         <table style="border: 2px solid #fff;">
             <tr>
                 <td class="tc bb-none">
-                    <p style="font-size: 20px;">Parcelsheba Limited</p>
+                    <p style="font-size: 20px;">Flycatcher Xpress Limited</p>
                 </td>
             </tr>
             <tr>

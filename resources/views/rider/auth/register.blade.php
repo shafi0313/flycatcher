@@ -77,7 +77,7 @@
                                     </g>
                                 </g>
                             </svg>
-                            <h2 class="brand-text text-primary ml-1">Parcelsheba</h2>
+                            <h2 class="brand-text text-primary ml-1">Flycatcher Xpress</h2>
                         </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
@@ -88,7 +88,7 @@
                         <!-- Register-->
                         <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-                                <h2 class="card-title font-weight-bold mb-1">Welcome to Parcelsheba!</h2>
+                                <h2 class="card-title font-weight-bold mb-1">Welcome to Flycatcher Xpress!</h2>
                                 <p class="card-text mb-2">Please Register to your account</p>
                                 <form class="auth-register-form mt-2" action="{{ route('rider.registerCheck') }}" method="POST">
                                     @csrf

@@ -82,7 +82,7 @@
         <table style="border: 2px solid #fff;">
             <tr>
                 <td class="tc bb-none">
-                    <p style="font-size: 20px;">Parcelsheba Limited</p>
+                    <p style="font-size: 20px;">Flycatcher Xpress Limited</p>
                 </td>
             </tr>
             <tr>
@@ -122,7 +122,7 @@
     <h4 style="margin: 2px;"></h4>
     <table class="table">
         <tr class="bb">
-            <th class="tc bb">#</th>     
+            <th class="tc bb">#</th>
             <th class="tc bb">Date</th>
             <th class="tc bb">Invoice id</th>
             <th class="tc bb">Tracking id</th>
@@ -138,7 +138,7 @@
         </tr>
         @foreach($invoice->invoiceItems as $item)
         <tr>
-            <td class="tc bb">{{$loop->iteration }}</td> 
+            <td class="tc bb">{{$loop->iteration }}</td>
             <td class="tc bb">{{date('d-M-Y',strtotime($item->parcel->added_date))}}</td>
             <td class="tc bb">{{$item->parcel->invoice_id}}</td>
             <td class="tc bb">{{$item->parcel->tracking_id}}</td>

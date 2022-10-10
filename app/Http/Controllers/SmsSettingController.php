@@ -41,7 +41,6 @@ class SmsSettingController extends Controller
      */
     public function store(Request $request)
     {
-      
         $smsSetting = SmsSetting::latest()->first();
         if (isset($smsSetting)) {
             $smsSetting->mobile = $request->mobile;
@@ -57,7 +56,7 @@ class SmsSettingController extends Controller
             $aaa->customer_send = $request->customer_send;
             $aaa->save();
         }
-        return response()->successRedirect('Info Updated !','');
+        return response()->successRedirect('Info Updated !', '');
     }
 
     /**
@@ -106,7 +105,6 @@ class SmsSettingController extends Controller
     }
     public static function sendSMS($phone, $message, $shopId)
     {
-
         $url = SmsSettingController::getSmsApi($phone, $message, $shopId);
         // dd($url);
         $ch_banpage = curl_init($url);
@@ -131,10 +129,11 @@ class SmsSettingController extends Controller
     public static function phoneNumberPrefix($phone)
     {
         $number = null;
-        if (substr($phone, 0, 2) != '88')
+        if (substr($phone, 0, 2) != '88') {
             $number .= '88' . $phone;
-        else
+        } else {
             $number .= $phone;
+        }
         return $number;
     }
 
@@ -151,7 +150,7 @@ class SmsSettingController extends Controller
 
         $hub_id = 1;
 
-        $message = "Your parcel($parcel->invoice_id) is cancelled.Your OTP is-" . $otp . ".Parcelsheba";
+        $message = "Your parcel($parcel->invoice_id) is cancelled.Your OTP is-" . $otp . ".Flycatcher Xpress";
 
         $phone = SmsSettingController::phoneNumberPrefix($phone);
 

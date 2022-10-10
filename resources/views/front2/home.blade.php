@@ -5,7 +5,7 @@
     <div class="banner">
         <div class="banner-image">
             <img src="{{asset('front-assets')}}/assets/img/banner.svg" alt="">
-            <h1 class="banner-caption-title-mobile">Transforming individuals with Parcelsheba logistics</h1>
+            <h1 class="banner-caption-title-mobile">Transforming individuals with Flycatcher Xpress logistics</h1>
         </div>
         <div class="banner-caption">
             <div class="container">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h1 class="banner-caption-title">Transforming individuals with Parcelsheba logistics</h1>
+                        <h1 class="banner-caption-title">Transforming individuals with Flycatcher Xpress logistics</h1>
                         <button type="button" class="banner-caption-hotline">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28 16.5653V14.6667C28 11.4841 26.7357 8.43181 24.4853 6.18138C22.2348 3.93094 19.1826 2.66666 16 2.66666C12.8174 2.66666 9.76513 3.93094 7.51469 6.18138C5.26426 8.43181 3.99997 11.4841 3.99997 14.6667V16.5653C2.60152 17.1811 1.45704 18.2586 0.758137 19.6174C0.0592317 20.9762 -0.151677 22.5339 0.160718 24.0296C0.473114 25.5254 1.28985 26.8684 2.4742 27.8339C3.65855 28.7994 5.13862 29.3288 6.66664 29.3333C7.37388 29.3333 8.05216 29.0524 8.55226 28.5523C9.05236 28.0522 9.33331 27.3739 9.33331 26.6667V18.6667C9.33331 17.9594 9.05236 17.2811 8.55226 16.781C8.05216 16.2809 7.37388 16 6.66664 16V14.6667C6.66664 12.1913 7.64997 9.81733 9.40031 8.06699C11.1506 6.31665 13.5246 5.33332 16 5.33332C18.4753 5.33332 20.8493 6.31665 22.5996 8.06699C24.35 9.81733 25.3333 12.1913 25.3333 14.6667V16C24.6261 16 23.9478 16.2809 23.4477 16.781C22.9476 17.2811 22.6666 17.9594 22.6666 18.6667V26.6667H18.6666C18.313 26.6667 17.9739 26.8071 17.7238 27.0572C17.4738 27.3072 17.3333 27.6464 17.3333 28C17.3333 28.3536 17.4738 28.6928 17.7238 28.9428C17.9739 29.1928 18.313 29.3333 18.6666 29.3333H25.3333C26.8613 29.3288 28.3414 28.7994 29.5257 27.8339C30.7101 26.8684 31.5268 25.5254 31.8392 24.0296C32.1516 22.5339 31.9407 20.9762 31.2418 19.6174C30.5429 18.2586 29.3984 17.1811 28 16.5653V16.5653ZM6.66664 26.6667C5.60577 26.6667 4.58836 26.2452 3.83821 25.4951C3.08807 24.7449 2.66664 23.7275 2.66664 22.6667C2.66664 21.6058 3.08807 20.5884 3.83821 19.8382C4.58836 19.0881 5.60577 18.6667 6.66664 18.6667V26.6667ZM25.3333 26.6667V18.6667C26.3942 18.6667 27.4116 19.0881 28.1617 19.8382C28.9119 20.5884 29.3333 21.6058 29.3333 22.6667C29.3333 23.7275 28.9119 24.7449 28.1617 25.4951C27.4116 26.2452 26.3942 26.6667 25.3333 26.6667Z" fill="white" />
@@ -79,7 +79,7 @@
                             </defs>
                         </svg>
                         <h3 class="service-title">Leading Technology</h3>
-                        <p class="service-description">With the brilliant team Parcelsheba assure you the best possible service experience, powered by superior technology.</p>
+                        <p class="service-description">With the brilliant team Flycatcher Xpress assure you the best possible service experience, powered by superior technology.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -307,13 +307,13 @@
         </div>
     </div>
     <!--/Delivery Charges-->
-    <!--Choose Parcelsheba-->
+    <!--Choose Flycatcher Xpress-->
     <div class="choose-parcelseba">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <h3 class="choose-parcelseba-title">Why Choose Parcelsheba?</h3>
-                    <span class="choose-parcelseba-subtitle">Parcelsheba aims to expanding e-commerce sector by providing tech-first logistics support. We give the delivery service with exclusive features, strong and talented workforce.</span>
+                    <h3 class="choose-parcelseba-title">Why Choose Flycatcher Xpress?</h3>
+                    <span class="choose-parcelseba-subtitle">Flycatcher Xpress aims to expanding e-commerce sector by providing tech-first logistics support. We give the delivery service with exclusive features, strong and talented workforce.</span>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="choose-parcelseba-list">
@@ -336,7 +336,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="choose-parcelseba-content-title">Next day delivery in Dhaka</h3>
-                                        <p class="choose-parcelseba-content">Parcelsheba has been providing pick-up and delivery service daily and offers next-day delivery inside Dhaka Metro.</p>
+                                        <p class="choose-parcelseba-content">Flycatcher Xpress has been providing pick-up and delivery service daily and offers next-day delivery inside Dhaka Metro.</p>
                                     </div>
                                 </li>
                                 <li class="choose-parcelseba-item">
@@ -355,7 +355,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="choose-parcelseba-content-title">Secure Handling</h3>
-                                        <p class="choose-parcelseba-content">Compensation policy of Parcelsheba guarantees safety of products and delivery service.</p>
+                                        <p class="choose-parcelseba-content">Compensation policy of Flycatcher Xpress guarantees safety of products and delivery service.</p>
                                     </div>
                                 </li>
                                 <li class="choose-parcelseba-item">
@@ -417,7 +417,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="choose-parcelseba-content-title">Free pick-up service</h3>
-                                        <p class="choose-parcelseba-content">Parcelsheba pick-up service is completely free inside Dhaka. After placing online order, our pickup team will pick the orders from the registered address of the merchant within the cut-off time.</p>
+                                        <p class="choose-parcelseba-content">Flycatcher Xpress pick-up service is completely free inside Dhaka. After placing online order, our pickup team will pick the orders from the registered address of the merchant within the cut-off time.</p>
                                     </div>
                                 </li>
                                 <li class="choose-parcelseba-item">
@@ -438,7 +438,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="choose-parcelseba-content-title">Next Day Payment</h3>
-                                        <p class="choose-parcelseba-content">Once the delivery is complete Parcelsheba will must send payment the very next day.</p>
+                                        <p class="choose-parcelseba-content">Once the delivery is complete Flycatcher Xpress will must send payment the very next day.</p>
                                     </div>
                                 </li>
                                 <li class="choose-parcelseba-item">
@@ -454,7 +454,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="choose-parcelseba-content-title">Payment Method</h3>
-                                        <p class="choose-parcelseba-content">Parcelsheba sends billing invoice to merchant electronically and also send the collection amount through direct bank transfer. There are other payment options available – cheque / bKash / Rocket / Nagad.</p>
+                                        <p class="choose-parcelseba-content">Flycatcher Xpress sends billing invoice to merchant electronically and also send the collection amount through direct bank transfer. There are other payment options available – cheque / bKash / Rocket / Nagad.</p>
                                     </div>
                                 </li>
                                 <li class="choose-parcelseba-item">
@@ -485,7 +485,7 @@
             </div>
         </div>
     </div>
-    <!--/Choose Parcelsheba-->
+    <!--/Choose Flycatcher Xpress-->
     <!--Trusted Partner-->
     <div class="trusted-partner">
         <div class="container">
@@ -533,10 +533,10 @@
                     </button>
                     <div class="collapse show" id="collapseExample">
                         <div class="card card-body">
-                            <p>Parcelsheba Delivery is a logistics company that aims to aid Bangladesh’s expanding e-commerce sector by providing tech-first delivery support. With exclusive features and a talented workforce, Parcelsheba Delivery gives the delivery service industry of Bangladesh a brand new pace.
+                            <p>Flycatcher Xpress Delivery is a logistics company that aims to aid Bangladesh’s expanding e-commerce sector by providing tech-first delivery support. With exclusive features and a talented workforce, Flycatcher Xpress Delivery gives the delivery service industry of Bangladesh a brand new pace.
                                 <br>
                                 <br>
-                                Parcelsheba delivers for both businesses and individuals. You can use our services to deliver everything from products to your customer’s doorstep to important personal documents and parcels to your friends and family.
+                                Flycatcher Xpress delivers for both businesses and individuals. You can use our services to deliver everything from products to your customer’s doorstep to important personal documents and parcels to your friends and family.
                             </p>
                         </div>
                     </div>
@@ -581,7 +581,7 @@
                     </button>
                     <div class="collapse" id="collapseExample3">
                         <div class="card card-body">
-                            We currently have 61 hubs across Bangladesh, covering all 64 districts. You can place an order by contacting your nearest Parcelsheba Delivery hub. Click here to see details on all hubs.
+                            We currently have 61 hubs across Bangladesh, covering all 64 districts. You can place an order by contacting your nearest Flycatcher Xpress Delivery hub. Click here to see details on all hubs.
                         </div>
                     </div>
                 </div>

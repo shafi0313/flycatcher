@@ -43,12 +43,8 @@
           <section class="py-0 bg-1000">
             <div class="container">
               <div class="row justify-content-md-between justify-content-evenly py-4">
-                <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+                <div class="col-12 text-center">
                   <p class="fs--1 my-2 fw-bold text-200">All rights Reserved &copy; {{ config('app.name')}}, {{date('Y')}}</p>
-                </div>
-                <div class="col-12 col-sm-8 col-md-6">
-                  <p class="fs--1 my-2 text-center text-md-end text-200"> Developed by <a class="fw-bold text-primary" href="http://lscominc.com/" target="_blank">LS COMMUNICATIONS</a>
-                  </p>
                 </div>
               </div>
             </div>
